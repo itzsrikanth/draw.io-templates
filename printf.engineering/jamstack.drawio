@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T06:23:52.537Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d_n7pPfB9WoiWTOL840g" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T06:25:11.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Cb3yghb36xxBfhspzzsS" version="22.1.21" type="github">
   <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
     <mxGraphModel dx="2924" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
           <mxGeometry x="-80" y="324.75" width="55.5" height="73.5" as="geometry" />
         </mxCell>
         <mxCell id="64R8TixSoIScUBKTJMOt-7" value="Lambda" style="outlineConnect=0;dashed=0;verticalLabelPosition=middle;verticalAlign=middle;align=left;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;labelPosition=right;" vertex="1" parent="1">
-          <mxGeometry x="650" y="520" width="69" height="72" as="geometry" />
+          <mxGeometry x="650" y="420" width="69" height="72" as="geometry" />
         </mxCell>
         <mxCell id="64R8TixSoIScUBKTJMOt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-8" target="64R8TixSoIScUBKTJMOt-3">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +64,7 @@
         <mxCell id="64R8TixSoIScUBKTJMOt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-27" target="64R8TixSoIScUBKTJMOt-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="64R8TixSoIScUBKTJMOt-44" value="Comments /&lt;br&gt;Reactions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-27" target="64R8TixSoIScUBKTJMOt-7">
+        <mxCell id="64R8TixSoIScUBKTJMOt-44" value="Comments /&lt;br&gt;Reactions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-27" target="64R8TixSoIScUBKTJMOt-57">
           <mxGeometry x="0.4587" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -107,6 +107,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="64R8TixSoIScUBKTJMOt-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-34" target="64R8TixSoIScUBKTJMOt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="64R8TixSoIScUBKTJMOt-57" value="Authentication" style="verticalLabelPosition=middle;html=1;verticalAlign=middle;align=left;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.multi_factor_authentication;pointerEvents=1;labelPosition=right;" vertex="1" parent="1">
+          <mxGeometry x="672" y="640" width="25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="64R8TixSoIScUBKTJMOt-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="64R8TixSoIScUBKTJMOt-57" target="64R8TixSoIScUBKTJMOt-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
